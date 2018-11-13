@@ -13,15 +13,15 @@ export const route: Routes = [
             },
             {
                 path: 'dashboard',
-                loadChildren: ''
+                loadChildren: './modules/dashboard/dashboard.module#DashboardModule'
             },
             {
                 path: 'login',
-                loadChildren: ''
+                loadChildren: './modules/account/account.module#AccountModule'
             },
             {
                 path: 'signup',
-                loadChildren: ''
+                loadChildren: './modules/account/account.module#AccountModule'
             }
         ]
     }
