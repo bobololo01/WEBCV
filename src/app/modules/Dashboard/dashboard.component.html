@@ -1,0 +1,778 @@
+<section id="box-group">
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <a class="navbar-brand" href="#">
+            <img src="https://www.topcv.vn/v3/images/welcome/logo/logo_topcv_white.png" height="40">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Về TopCV</a></li>
+            <li><a href="#">Mẫu CV</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false" style="display: block; padding: 10px 15px; margin-top: 15px;">Việc
+                làm <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="text-align: right;">
+                <li><a href="#">Tất cả việc làm</a></li>
+                <li><a href="#">Danh sách việc làm top công ty</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false" style="display: block; padding: 10px 15px; margin-top: 15px;">Khám
+                phá công ty <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="text-align: right;">
+                <li><a href="#">Danh sách công ty</a></li>
+                <li><a href="#">Danh sách top các công ty</a></li>
+              </ul>
+            </li>
+            <li><a href="#" target="_blank">Sự kiện</a></li>
+            <li><a href="#">Khóa học</a></li>
+            <li><a href="#">Đăng nhập</a></li>
+            <li id="epl-btn">
+              <a href="#" target="_blank">
+                <p>NHÀ TUYỂN DỤNG</p>
+                <p style="font-weight: normal;">Đăng tuyển &amp; Tìm hồ sơ</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="box-create-cv">
+    <div class="container">
+      <div class="create-cv">
+        <div class="slogan">
+          <h1>VIẾT CV NGAY - NHẬN VIỆC LIỀN TAY</h1>
+        </div>
+        <div class="description">
+          <p>Dễ dàng tạo hồ sơ xin việc với nhiều mẫu CV đẹp, ấn tượng chỉ trong 5 phút!</p>
+        </div>
+        <div class="div-btn text-center">
+          <a href="#" class="btn btn-default create-cv-free-link">TẠO CV MIỄN PHÍ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="box-search-job">
+    <div class="container">
+      <form id="frm-search-job" method="GET" onsubmit="return false;">
+        <h2>Tìm ngay 3600+ việc làm tốt nhất trên TopCV</h2>
+        <div class="row">
+          <div class="col-md-10 col-input">
+            <div class="row">
+              <div class="form-group col-sm-6 col-xs-12 input-data">
+                <span class="input-icon"><i class="icons8-zoom"></i></span>
+                <input class="form-control input-search ui-autocomplete-input" value="" placeholder="Tên công việc, vị trí bạn muốn ứng tuyển ..."
+                  id="keyword" autocomplete="off">
+              </div>
+              <div class="form-group col-sm-3 hidden-xs input-data no-padding">
+                <span class="input-icon-select2"><i class="icons8-map-pin"></i></span>
+                <select class="form-control input-select2 select2-hidden-accessible" id="city" style="width: 100%"
+                  tabindex="-1" aria-hidden="true">
+                  <option value="">Tất cả địa điểm</option>
+                  <option value="1">Hà Nội</option>
+                  <option value="2">Hồ Chí Minh</option>
+                  <option value="3">Bình Dương</option>
+                  <option value="4">Bắc Ninh</option>
+                  <option value="5">Đồng Nai</option>
+                  <option value="6">Hưng Yên</option>
+                  <option value="7">Hải Dương</option>
+                  <option value="8">Đà Nẵng</option>
+                  <option value="9">Hải Phòng</option>
+                  <option value="10">An Giang</option>
+                  <option value="11">Bà Rịa-Vũng Tàu</option>
+                  <option value="12">Bắc Giang</option>
+                  <option value="13">Bắc Kạn</option>
+                  <option value="14">Bạc Liêu</option>
+                  <option value="15">Bến Tre</option>
+                  <option value="16">Bình Định</option>
+                  <option value="17">Bình Phước</option>
+                  <option value="18">Bình Thuận</option>
+                  <option value="19">Cà Mau</option>
+                  <option value="20">Cần Thơ</option>
+                  <option value="21">Cao Bằng</option>
+                  <option value="22">Cửu Long</option>
+                  <option value="23">Đắc Lắc</option>
+                  <option value="24">Đắc Nông</option>
+                  <option value="25">Điện Biên</option>
+                  <option value="26">Đồng Tháp</option>
+                  <option value="27">Gia Lai</option>
+                  <option value="28">Hà Giang</option>
+                  <option value="29">Hà Nam</option>
+                  <option value="30">Hà Tĩnh</option>
+                  <option value="31">Hậu Giang</option>
+                  <option value="32">Hoà Bình</option>
+                  <option value="33">Khánh Hoà</option>
+                  <option value="34">Kiên Giang</option>
+                  <option value="35">Kon Tum</option>
+                  <option value="36">Lai Châu</option>
+                  <option value="37">Lâm Đồng</option>
+                  <option value="38">Lạng Sơn</option>
+                  <option value="39">Lào Cai</option>
+                  <option value="40">Long An</option>
+                  <option value="41">Miền Bắc</option>
+                  <option value="42">Miền Nam</option>
+                  <option value="43">Miền Trung</option>
+                  <option value="44">Nam Định</option>
+                  <option value="45">Nghệ An</option>
+                  <option value="46">Ninh Bình</option>
+                  <option value="47">Ninh Thuận</option>
+                  <option value="48">Phú Thọ</option>
+                  <option value="49">Phú Yên</option>
+                  <option value="50">Quảng Bình</option>
+                  <option value="51">Quảng Nam</option>
+                  <option value="52">Quảng Ngãi</option>
+                  <option value="53">Quảng Ninh</option>
+                  <option value="54">Quảng Trị</option>
+                  <option value="55">Sóc Trăng</option>
+                  <option value="56">Sơn La</option>
+                  <option value="57">Tây Ninh</option>
+                  <option value="58">Thái Bình</option>
+                  <option value="59">Thái Nguyên</option>
+                  <option value="60">Thanh Hoá</option>
+                  <option value="61">Thừa Thiên Huế</option>
+                  <option value="62">Tiền Giang</option>
+                  <option value="63">Toàn Quốc</option>
+                  <option value="64">Trà Vinh</option>
+                  <option value="65">Tuyên Quang</option>
+                  <option value="66">Vĩnh Long</option>
+                  <option value="67">Vĩnh Phúc</option>
+                  <option value="68">Yên Bái</option>
+                  <option value="100">Nước Ngoài</option>
+                </select>
+                <!-- <span class="select2 select2-container select2-container--default select2-container--above"
+                  dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single"
+                      role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-labelledby="select2-city-container"><span
+                        class="select2-selection__rendered" id="select2-city-container" title="Tất cả địa điểm">Tất
+                        cả địa điểm</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span
+                    class="dropdown-wrapper" aria-hidden="true"></span></span> -->
+              </div>
+              <div class="form-group col-sm-3 hidden-xs input-data no-padding">
+                <span class="input-icon-select2"><i class="icons8-tool-symbol"></i></span>
+                <select class="form-control input-select2 select2-hidden-accessible" id="category" style="width: 100%"
+                  tabindex="-1" aria-hidden="true">
+                  <option value="">Tất cả ngành nghề</option>
+                  <option value="10001">Nhân viên kinh doanh/Bán hàng</option>
+                  <option value="10003">Biên/Phiên dịch</option>
+                  <option value="10004">Báo chí/Truyền hình</option>
+                  <option value="10006">Bảo hiểm</option>
+                  <option value="10007">Bất động sản</option>
+                  <option value="10011">Du lịch</option>
+                  <option value="10014">Dịch vụ khách hàng</option>
+                  <option value="10017">Giáo dục/Đào tạo</option>
+                  <option value="10023">Hành chính/Văn phòng</option>
+                  <option value="10025">IT Phần cứng/Mạng</option>
+                  <option value="10026">IT phần mềm</option>
+                  <option value="10027">Khách sạn/Nhà hàng</option>
+                  <option value="10028">Kế toán/Kiểm toán</option>
+                  <option value="10029">Marketing/ Quảng cáo</option>
+                  <option value="10033">Ngân hàng/ Tài chính</option>
+                  <option value="10034">Nhân sự</option>
+                  <option value="10036">Luật/Pháp lý</option>
+                  <option value="10037">Quản lý chất lượng (QA/QC)</option>
+                  <option value="10038">Quản lý điều hành</option>
+                  <option value="10039">Thiết kế đồ họa</option>
+                  <option value="10042">Thời trang</option>
+                  <option value="10045">Tư vấn</option>
+                  <option value="10047">Vận tải/Kho vận</option>
+                  <option value="10049">Xuất nhập khẩu</option>
+                  <option value="10050">Xây dựng</option>
+                  <option value="10051">Y tế/Dược</option>
+                  <option value="11000">Ngành nghề khác</option>
+                </select>
+                <!-- <span class="select2 select2-container select2-container--default select2-container--above"
+                  dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single"
+                      role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-labelledby="select2-category-container"><span
+                        class="select2-selection__rendered" id="select2-category-container" title="Tất cả ngành nghề">Tất
+                        cả ngành nghề</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span
+                    class="dropdown-wrapper" aria-hidden="true"></span></span> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 form-group col-button">
+            <button class="btn btn-topcv btn-search-job"><i class="fa fa-search"></i> TÌM VIỆC NGAY</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</section>
+<section id="connect-job">
+  <div class="container">
+    <h2>TopCV là nền tảng <strong>Kết nối cơ hội việc làm</strong> thông qua <strong>CV</strong> (hồ sơ xin việc) đầu
+      tiên tại Việt Nam, nơi mà ứng viên sẽ được Nhà tuyển dụng <strong>chủ động săn đón</strong>, dù ở bất kỳ vị trí
+      nào.</h2>
+    <div class="row">
+      <div class="col-md-4 step">
+        <a target="_blank" title="Hoàn thiện hồ sơ xin việc" href="#" class="step-img">
+          <img src="https://www.topcv.vn/v3/images/welcome/connect-job/hoan_thien_ho_so.png" alt="Hoàn thiện hồ sơ xin việc"
+            class="img-responsive">
+        </a>
+        <p class="step-name"><a target="_blank" href="#">Hoàn thiện hồ sơ xin việc</a></p>
+        <p class="step-des">Chuẩn bị hồ sơ xin việc ấn tượng &amp; chuyên nghiệp với Công cụ viết CV số 1 Việt Nam.</p>
+      </div>
+      <div class="col-md-4 step">
+        <a title="Chủ động tìm việc" target="_blank" href="#" class="step-img">
+          <img src="https://www.topcv.vn/v3/images/welcome/connect-job/chu_dong_tim_viec.png" alt="Chủ động tìm việc"
+            class="img-responsive">
+        </a>
+        <p class="step-name"><a target="_blank" href="#">Chủ động tìm việc</a></p>
+        <p class="step-des">Hệ thống gợi ý các công việc phù hợp với CV của bạn, chỉ 1 click để ứng tuyển nhanh
+          chóng.</p>
+      </div>
+      <div class="col-md-4 step">
+        <a href="#" title="Nhận cơ hội hấp dẫn" target="_blank" class="step-img">
+          <img src="https://www.topcv.vn/v3/images/welcome/connect-job/co_hoi.png" alt="Nhận cơ hội hấp dẫn" class="img-responsive">
+        </a>
+        <p class="step-name"><a href="#" target="_blank">Nhận cơ hội hấp dẫn</a></p>
+        <p class="step-des">Nhà tuyển dụng chủ động tìm kiếm bạn qua CV đã tạo trên TopCV, nhận ngay nhiều lời mời
+          hấp dẫn.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="reason-use">
+  <div class="container">
+    <h2>TẠI SAO NÊN SỬ DỤNG TOPCV</h2>
+    <div class="row item">
+      <div class="col-md-7 item-img">
+        <a href="#" title="Công cụ viết CV đẹp miễn phí">
+          <img src="https://www.topcv.vn/v3/images/welcome/reason-use/tao_cv.png" alt="Công cụ viết CV đẹp miễn phí"
+            class="img-responsive">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <div class="item-info">
+          <h3>Công cụ viết CV đẹp Miễn phí</h3>
+          <ul>
+            <li>Nhiều mẫu CV đẹp, phù hợp nhu cầu ứng tuyển các vị trí khác nhau.</li>
+            <li>Tương tác trực quan, dễ dàng chỉnh sửa thông tin, tạo CV online nhanh chóng trong vòng 5 phút.</li>
+            <li>Nhận gợi ý cách viết CV phù hợp cùng các mẫu CV tham khảo chi tiết theo ngành nghề.</li>
+            <li>Đồng bộ với các mẫu thư xin việc (Cover Letter). Hỗ trợ đa ngôn ngữ: tiếng Anh / Nhật / Việt.</li>
+          </ul>
+          <p class="text-center item-link"><a href="#" class="btn btn-topcv">TẠO CV NGAY</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row item">
+      <div class="col-md-7 item-img item-img-left">
+        <a href="#" title="Việc làm Chất lượng">
+          <img src="https://www.topcv.vn/v3/images/welcome/reason-use/tim_viec.png" alt="Việc làm chất lượng" class="img-responsive">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <div class="item-info">
+          <h3>Việc làm Chất lượng</h3>
+          <ul>
+            <li>Hàng ngàn tin tuyển dụng chất lượng cao được cập nhật thường xuyên để đáp ứng nhu cầu tìm việc của
+              ứng viên.</li>
+            <li>Hệ thống thông minh tự động gợi ý các công việc phù hợp theo CV của bạn.</li>
+          </ul>
+          <p class="text-center item-link"><a href="#" class="btn btn-topcv">TÌM VIỆC
+              NGAY</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row item">
+      <div class="col-md-7 item-img">
+        <a href="#" title="Hỗ trợ người tìm việc">
+          <img src="https://www.topcv.vn/v3/images/welcome/reason-use/ho_tro_tim_viec.png" alt="Hỗ trợ người tìm việc"
+            class="img-responsive">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <div class="item-info">
+          <h3>Hỗ trợ Người tìm việc</h3>
+          <ul>
+            <li>Nhà tuyển dụng chủ động tìm kiếm và liên hệ với bạn qua hệ thống kết nối ứng viên thông minh.</li>
+            <li>Báo cáo chi tiết Nhà tuyển dụng đã xem CV và gửi offer tới bạn.</li>
+            <li>Định hướng nghề nghiệp &amp; khám phá tính cách qua Công cụ <a href="#" target="_blank" class="text-success">Trắc nghiệm tính cách MBTI</a>.</li>
+            <li>Cung cấp các khóa học nâng cao kỹ năng chuyên môn.</li>
+          </ul>
+          <p class="text-center item-link"><a href="#" class="btn btn-topcv">THỬ NGAY</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row item">
+      <div class="col-md-7 item-img item-img-left">
+        <a href="#" title="Hỗ trợ người tìm việc">
+          <img src="https://www.topcv.vn/v3/images/welcome/reason-use/bao_mat.png" alt="Hỗ trợ người tìm việc" class="img-responsive">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <div class="item-info">
+          <h3>Bảo mật &amp; An toàn tuyệt đối</h3>
+          <ul>
+            <li>Bạn có thể chủ động bật / tắt trạng thái tìm việc, trạng thái cho phép Nhà tuyển dụng xem hồ sơ. Nếu
+              các trạng thái tắt, không ai có thể xem được CV của bạn.</li>
+            <li>Các Nhà tuyển dụng đều được TopCV xác thực rõ ràng danh tính, đảm bảo đến từ các công ty uy tín, giúp
+              bạn yên tâm hơn khi ứng tuyển và sớm chủ động nhận được phản hổi.</li>
+          </ul>
+          <p class="text-center item-link"><a href="#" class="btn btn-topcv">THỬ
+              NGAY</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="partner">
+  <div class="container">
+    <h2 class="text-center">ĐỐI TÁC TUYỂN DỤNG TOPCV</h2>
+    <p class="text-center">Hàng nghìn doanh nghiệp uy tín đang tìm kiếm ứng viên trên TopCV</p>
+    <div class="row">
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive" src="https://www.topcv.vn/v3/images/welcome/partner/fpt.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/samsung.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/vingroup.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/viettel.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/pwc.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive" src="https://www.topcv.vn/v3/images/welcome/partner/canon.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/topica.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive" src="https://www.topcv.vn/v3/images/welcome/partner/uber.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive" src="https://www.topcv.vn/v3/images/welcome/partner/oppo.svg"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/langmaster.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img
+            class="img-responsive" src="https://www.topcv.vn/v3/images/welcome/partner/anz.png"></a>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 company">
+        <a href="#" target="_blank"><img class="img-responsive"
+            src="https://www.topcv.vn/v3/images/welcome/partner/vng.png"></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section id="box-feedback-and-stat">
+  <section id="feedback">
+    <div class="container">
+      <h2 class="text-center">NGƯỜI DÙNG NÓI VỀ TOPCV</h2>
+      <div class="row slick-initialized slick-slider slick-dotted" id="slider"><button class="slick-prev slick-arrow"
+          aria-label="Previous" type="button" style="display: inline-block;">Previous</button>
+
+
+
+
+
+
+
+
+        <div class="slick-list draggable">
+          <div class="slick-track" style="opacity: 1; width: 10530px; transform: translate3d(-3510px, 0px, 0px);">
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="-2" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/namkennic.png">
+                <h5 class="name">Nam Kennic</h5>
+                <span class="title">Senior iOS Developer</span>
+                <div class="clearfix"></div>
+                <p>TopCV đã giúp mình tiết kiệm được nhiều thời gian làm CV. Chúc TopCV ngày càng phát triển.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="-1" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/fsoft.png">
+                <h5 class="name">Lan Phương</h5>
+                <span class="title">Quản lý nhân sự FSoft</span>
+                <div class="clearfix"></div>
+                <p>TopCV giúp tôi tiếp cận nhiều hơn với những ứng viên chất lượng, CV của các bạn cũng rất sáng sủa,
+                  dễ nhìn, giúp tôi tiết kiệm được thời gian khi lọc CV.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="0" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/minhquang-ftu.png">
+                <h5 class="name">Minh Quang</h5>
+                <span class="title">Assistant Account Manager - Ogilvy</span>
+                <div class="clearfix"></div>
+                <p>Top CV là một ý tưởng rất sáng tạo và thực tế. Tôi đã chỉnh sửa CV của mình tốt lên hơn rất nhiều
+                  từ những mẫu tham khảo trên trang web.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="1" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide01">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/mainguyen.jpg">
+                <h5>Mai Nguyễn</h5>
+                <span>Universal banker - Citibank</span>
+                <div class="clearfix"></div>
+                <p>Mình mới được nhận offer từ KPMG. Cảm ơn TopCV đã giúp mình có CV chất lượng!</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="2" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control01">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/thanhvo.png">
+                <h5 class="name">Võ Văn Thành</h5>
+                <span class="title">Local Sales Manager</span>
+                <div class="clearfix"></div>
+                <p>Tôi có kinh nghiệm 10 năm trong việc quản lý, tuy nhiên đến giờ CV nhìn vẫn không chuyên nghiệp.
+                  TopCV đã giúp tôi có CV chuẩn và chuyên nghiệp hơn rất nhiều.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="3" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide03">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/do-thuy-trang-ntq-solution.png">
+                <h5 class="name">Đỗ Thùy Trang</h5>
+                <span class="title">Quản lý Nhân sự - NTQ Solution</span>
+                <div class="clearfix"></div>
+                <p>Tôi có ấn tượng mạnh với CV ứng viên được gửi từ TopCV. CV trình bày rất rõ ràng, bắt mắt, giúp
+                  tôi thấy ngay được điểm mạnh của từng ứng viên. Nhờ đó mà công tác Tuyển dụng cũng thuận lợi hơn.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-current slick-active" style="width: 585px;" data-slick-index="4"
+              aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control02">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/lananh.png">
+                <h5 class="name">Lan Anh</h5>
+                <span class="title">The University of Auckland English Language Academy (ELA)</span>
+                <div class="clearfix"></div>
+                <p>TopCV đã giúp mình tiết kiệm được nhiều thời gian làm CV. Chúc TopCV ngày càng phát triển.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-active" style="width: 585px;" data-slick-index="5" aria-hidden="false"
+              tabindex="0" role="tabpanel" id="slick-slide05">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/thanhha.png">
+                <h5 class="name">Thanh Hà</h5>
+                <span class="title">Chuyên viên Quan hệ khách hàng, Việt Á Bank</span>
+                <div class="clearfix"></div>
+                <p>Các mẫu CV rất ấn tượng, cảm ơn các bạn rất nhiều!</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="6" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide06" aria-describedby="slick-slide-control03">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/namkennic.png">
+                <h5 class="name">Nam Kennic</h5>
+                <span class="title">Senior iOS Developer</span>
+                <div class="clearfix"></div>
+                <p>TopCV đã giúp mình tiết kiệm được nhiều thời gian làm CV. Chúc TopCV ngày càng phát triển.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide" style="width: 585px;" data-slick-index="7" aria-hidden="true" tabindex="-1"
+              role="tabpanel" id="slick-slide07">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/fsoft.png">
+                <h5 class="name">Lan Phương</h5>
+                <span class="title">Quản lý nhân sự FSoft</span>
+                <div class="clearfix"></div>
+                <p>TopCV giúp tôi tiếp cận nhiều hơn với những ứng viên chất lượng, CV của các bạn cũng rất sáng sủa,
+                  dễ nhìn, giúp tôi tiết kiệm được thời gian khi lọc CV.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="8" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/minhquang-ftu.png">
+                <h5 class="name">Minh Quang</h5>
+                <span class="title">Assistant Account Manager - Ogilvy</span>
+                <div class="clearfix"></div>
+                <p>Top CV là một ý tưởng rất sáng tạo và thực tế. Tôi đã chỉnh sửa CV của mình tốt lên hơn rất nhiều
+                  từ những mẫu tham khảo trên trang web.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="9" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/mainguyen.jpg">
+                <h5>Mai Nguyễn</h5>
+                <span>Universal banker - Citibank</span>
+                <div class="clearfix"></div>
+                <p>Mình mới được nhận offer từ KPMG. Cảm ơn TopCV đã giúp mình có CV chất lượng!</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="10" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/thanhvo.png">
+                <h5 class="name">Võ Văn Thành</h5>
+                <span class="title">Local Sales Manager</span>
+                <div class="clearfix"></div>
+                <p>Tôi có kinh nghiệm 10 năm trong việc quản lý, tuy nhiên đến giờ CV nhìn vẫn không chuyên nghiệp.
+                  TopCV đã giúp tôi có CV chuẩn và chuyên nghiệp hơn rất nhiều.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="11" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/do-thuy-trang-ntq-solution.png">
+                <h5 class="name">Đỗ Thùy Trang</h5>
+                <span class="title">Quản lý Nhân sự - NTQ Solution</span>
+                <div class="clearfix"></div>
+                <p>Tôi có ấn tượng mạnh với CV ứng viên được gửi từ TopCV. CV trình bày rất rõ ràng, bắt mắt, giúp
+                  tôi thấy ngay được điểm mạnh của từng ứng viên. Nhờ đó mà công tác Tuyển dụng cũng thuận lợi hơn.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="12" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/lananh.png">
+                <h5 class="name">Lan Anh</h5>
+                <span class="title">The University of Auckland English Language Academy (ELA)</span>
+                <div class="clearfix"></div>
+                <p>TopCV đã giúp mình tiết kiệm được nhiều thời gian làm CV. Chúc TopCV ngày càng phát triển.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="13" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/thanhha.png">
+                <h5 class="name">Thanh Hà</h5>
+                <span class="title">Chuyên viên Quan hệ khách hàng, Việt Á Bank</span>
+                <div class="clearfix"></div>
+                <p>Các mẫu CV rất ấn tượng, cảm ơn các bạn rất nhiều!</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="14" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/namkennic.png">
+                <h5 class="name">Nam Kennic</h5>
+                <span class="title">Senior iOS Developer</span>
+                <div class="clearfix"></div>
+                <p>TopCV đã giúp mình tiết kiệm được nhiều thời gian làm CV. Chúc TopCV ngày càng phát triển.</p>
+              </div>
+            </div>
+            <div class="col-sm-4 slick-slide slick-cloned" style="width: 585px;" data-slick-index="15" aria-hidden="true"
+              tabindex="-1">
+              <div class="item">
+                <img src="https://www.topcv.vn/images/reviewers/fsoft.png">
+                <h5 class="name">Lan Phương</h5>
+                <span class="title">Quản lý nhân sự FSoft</span>
+                <div class="clearfix"></div>
+                <p>TopCV giúp tôi tiếp cận nhiều hơn với những ứng viên chất lượng, CV của các bạn cũng rất sáng sủa,
+                  dễ nhìn, giúp tôi tiết kiệm được thời gian khi lọc CV.</p>
+              </div>
+            </div>
+          </div>
+        </div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: inline-block;">Next</button>
+        <ul class="slick-dots" style="display: block;" role="tablist">
+          <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00"
+              aria-label="1 of 4" tabindex="-1">1</button></li>
+          <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide02"
+              aria-label="2 of 4" tabindex="-1">2</button></li>
+          <li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control02"
+              aria-controls="slick-slide04" aria-label="3 of 4" tabindex="-1">3</button></li>
+          <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide06"
+              aria-label="4 of 4" tabindex="-1">4</button></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="stat">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 item">
+          <span>1,289,258</span>
+          <p>CV nổi bật được tạo ra</p>
+        </div>
+        <div class="col-md-4 item">
+          <span>16,228</span>
+          <p>Nhà tuyển dụng tìm kiếm ứng viên hàng ngày trên TopCV</p>
+        </div>
+        <div class="col-md-4 item">
+          <span>1,020,156</span>
+          <p>Ứng viên tìm được công việc phù hợp năng lực và sở thích</p>
+        </div>
+        <div class="clear-both"></div>
+        <div class="col-xs-12" style="width: 100%">
+          <p style="color: #666; margin-bottom: 0px;">Vậy còn lý do gì để không khởi đầu công việc mơ ước cùng TopCV?</p>
+          <a href="#" class="btn btn-topcv">Đăng ký miễn phí</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section> -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 footer-right">
+        <div class="row">
+          <div class="col-xs-12">
+            <a href="#" class="logo"><img src="https://www.topcv.vn/v3/images/topcv-logo.png" height="45"></a>
+          </div>
+          <div class="col-xs-6">
+            <ul>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Góc báo chí</a></li>
+              <li><a target="_blank" href="#">Tuyển dụng</a></li>
+              <li><a href="#">Liên hệ</a></li>
+              <li><a href="#">Hỏi đáp</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6">
+            <ul>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Điều khoản dịch vụ</a></li>
+              <li><a href="#" target="_blank">Quy chế
+                  hoạt động</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-7 footer-left">
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <div class="group-label">Ứng viên</div>
+            <ul>
+              <li><a href="#" target="_blank">Tìm việc làm</a></li>
+              <li><a href="#" target="_blank">Khóa học</a></li>
+              <li><a href="#" title="Trắc nghiệm tính cách MBTI">Trắc
+                  nghiệm MBTI</a></li>
+              <li><a href="#" target="_blank">Hướng dẫn viết CV</a></li>
+              <li><a href="#">Tư vấn sửa CV</a></li>
+              <li><a href="#">Thiết kế CV</a></li>
+              <li><a href="#">Dịch CV</a></li>
+              <li><a target="_blank" href="#">Bài viết tham khảo</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <div class="group-label">Đối tác</div>
+            <ul>
+              <li><a target="_blank" href="#">Doanh nghiệp</a></li>
+              <li><a href="#">Trường đại học</a></li>
+              <li><a href="#">Các CLB, đoàn thể</a></li>
+              <li><a href="#" target="_blank">Edu2Review</a></li>
+              <li><a href="#" target="_blank">Học Excel Online</a></li>
+              <li><a href="#" target="_blank" title="Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2018 trên toàn quốc - JAMJA">JAMJA.vn</a></li>
+              <li><a href="#" target="_blank">Mogi.vn bất động sản</a></li>
+              <li><a href="#" target="_blank">ViecNgay.vn</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <div class="group-label">Kết nối</div>
+            <ul>
+              <li class="social-icons">
+                <a href="#" target="_blank"><span class="fa fa-facebook"></span></a>
+                <a href="javascript:void(0)"><span class="fa fa-twitter"></span></a>
+                <a href="#" target="_blank"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-youtube"></span></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><img src="https://www.topcv.vn/images/bct.jpg"
+                    style="max-height: 56px; margin-left: -10px;"></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"
+                  title="DMCA.com Protection Status" class="dmca-badge" style="max-height: 56px; text-align: center">
+                  <img src="//images.dmca.com/Badges/_dmca_premi_badge_2.png?ID=1b16a667-a95e-4730-846f-46f962522fce"
+                    alt="DMCA.com Protection Status"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-common-search-keywords">
+      <div class="container">
+        <ul class="list-inline">
+          <li><a target="_blank" href="#">cv là gì</a>,</li>
+          <li><a target="_blank" href="#">mẫu cv tiếng anh</a>,</li>
+          <li><a target="_blank" href="#">mẫu cv tiếng việt</a>,</li>
+          <li><a target="_blank" href="#">tải mẫu sơ yếu lý
+              lịch chuẩn miễn phí</a>,</li>
+          <li><a target="_blank" href="#">tổng hợp CV tham
+              khảo các nhóm ngành</a>,</li>
+          <li><a target="_blank" href="#">tổng hợp CV
+              tham khảo cho lập trình viên</a>,</li>
+          <li><a target="_blank" href="#">giấy tờ thủ tục hồ sơ xin
+              việc</a>,</li>
+          <li><a target="_blank" href="#">email bằng tiếng
+              anh</a>,</li>
+          <li><a target="_blank" href="#">mẫu đơn xin việc các nhóm ngành</a>,</li>
+          <li><a target="_blank" href="#">mẫu đơn xin nghỉ việc</a>,</li>
+          <li><a target="_blank" href="#">cách viết CV Chuẩn</a></li>,
+          <li><a target="_blank" href="#">cách viết
+              CV Ngành Kinh doanh/Bán hàng</a></li>
+          <li><a target="_blank" href="#">cách viết CV Ngành
+              Kế Toán/Kiểm Toán</a></li>,
+          <li><a target="_blank" href="#">cách viết CV Ngành Nhân Sự</a></li>
+          <li><a target="_blank" href="#">cách viết CV xin Học bổng</a></li>
+          <li><a target="_blank" href="#">cách viết CV Tiếng
+              Anh</a></li>
+          <li><a target="_blank" href="#">cách viết CV Tiếng Nhật</a></li>
+          <li><a target="_blank" href="#">cách viết CV Tiếng Trung</a></li>
+          <li><a target="_blank" href="#">cách viết CV Tiếng Hàn</a></li>
+          <li><a target="_blank" href="#">cẩm nang năm nhất
+              cho sinh viên</a></li>
+          <li><a target="_blank" href="#">Mẫu đơn xin
+              thực tập</a></li>
+          <li><a target="_blank" href="#">Hướng dẫn sửa lỗi
+              gõ tiếng Việt</a></li>
+          <li><a target="_blank" href="#">Ngành du lịch làm
+              những công việc gì</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc ngành
+              nhân sự</a></li>
+          <li><a target="_blank" href="#">Xin việc ngành công
+              nghệ thông tin</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc
+              ngành marketing</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc ngành
+              kế toán kiểm toán </a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc
+              ngành công nghệ thực phẩm</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin
+              việc ngành tài chính ngân hàng</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc ngành luật</a></li>
+          <li><a target="_blank" href="#">Cẩm nang xin việc ngành
+              xây dựng - địa ốc</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          © 2014 - 2018 Bản quyền thuộc về CTCP TopCv Việt Nam
+        </div>
+        <div class="col-md-6">
+          Trụ sở HN: Tầng 19, 169 Nguyễn Ngọc Vũ, Trung Hòa, Cầu Giấy, Hà Nội <br>
+          Chi nhánh miền Nam: 23B Tôn Đức Thắng, Phường Bến Nghé, Quận 1, HCM
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
